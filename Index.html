@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Capitalis — Finanças do Mundo</title>
+  <meta name="description" content="Análise de finanças globais, mercados, câmbio e economia internacional.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Serif+4:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+
+  <!-- Tabler Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+
+  <!-- Folha de estilos -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- =============================================
+       TOPBAR
+  ============================================== -->
+  <div class="topbar">
+    <span>Segunda-feira, 1 de junho de 2026</span>
+    <span>Mercados globais · Análise · Economia</span>
+    <span class="topbar-search" aria-label="Buscar">
+      <i class="ti ti-search"></i>
+    </span>
+  </div>
+
+  <!-- =============================================
+       NAVEGAÇÃO
+  ============================================== -->
+  <nav class="nav" aria-label="Navegação principal">
+    <a href="#" class="nav-logo">
+      Capitalis<span>Finanças do Mundo</span>
+    </a>
+    <ul class="nav-links">
+      <li class="active">Mercados</li>
+      <li>Economia</li>
+      <li>Câmbio</li>
+      <li>Opinião</li>
+      <li>Dados</li>
+    </ul>
+  </nav>
+
+  <!-- =============================================
+       FAIXA DE CATEGORIAS
+  ============================================== -->
+  <div class="category-strip" role="navigation" aria-label="Filtro por região">
+    <div class="cat-tag active" data-cat="todos">Todos</div>
+    <div class="cat-tag" data-cat="eua">EUA</div>
+    <div class="cat-tag" data-cat="europa">Europa</div>
+    <div class="cat-tag" data-cat="asia">Ásia</div>
+    <div class="cat-tag" data-cat="brasil">Brasil</div>
+    <div class="cat-tag" data-cat="commodities">Commodities</div>
+    <div class="cat-tag" data-cat="cripto">Criptomoedas</div>
+  </div>
+
+  <!-- =============================================
+       CONTEÚDO PRINCIPAL
+  ============================================== -->
+  <main class="main-content">
+    <div class="layout">
+
+      <!-- ==========================================
+           COLUNA PRINCIPAL
+      =========================================== -->
+      <div class="main-col">
+
+        <!-- Seção: Em Destaque -->
+        <p class="section-label">Em destaque</p>
+
+        <div class="featured-grid">
+
+          <!-- Artigo Principal -->
+          <article class="feat-main" data-cat="eua">
+            <span class="badge badge-red">Urgente</span>
+            <p class="feat-eyebrow">Política Monetária · Fed · 4 min leitura</p>
+            <h2 class="feat-title">
+              Fed mantém juros e divide mercados: o que isso significa para o Brasil e emergentes
+            </h2>
+            <p class="feat-desc">
+              A decisão do banco central americano surpreendeu analistas ao manter a taxa de juros inalterada pela terceira reunião consecutiva, gerando volatilidade nos mercados globais e pressão sobre moedas emergentes.
+            </p>
+            <div class="feat-meta">
+              <span>Por Ana Ferreira</span>
+              <span class="dot">·</span>
+              <span>Hoje, 08:42</span>
+              <span class="dot">·</span>
+              <span>Ler artigo →</span>
+            </div>
+          </article>
+
+          <!-- Artigo Secundário 1 -->
+          <article class="feat-side" data-cat="europa">
+            <span class="badge badge-blue">Análise</span>
+            <p class="feat-eyebrow">Europa · Dívida</p>
+            <h3 class="feat-title">
+              Crise silenciosa: endividamento europeu bate recorde histórico
+            </h3>
+            <div class="feat-meta">
+              <span>Lucas Andrade</span>
+              <span class="dot">·</span>
+              <span>Ontem</span>
+            </div>
+          </article>
+
+          <!-- Artigo Secundário 2 -->
+          <article class="feat-side" data-cat="cripto">
+            <span class="badge badge-amber">Mercados</span>
+            <p class="feat-eyebrow">Cripto · Bitcoin</p>
+            <h3 class="feat-title">
+              Bitcoin recua 18% em maio: especulação ou correção estrutural?
+            </h3>
+            <div class="feat-meta">
+              <span>Rafaela Souza</span>
+              <span class="dot">·</span>
+              <span>31 mai</span>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Seção: Últimas Análises -->
+        <section class="articles-section">
+          <p class="section-label">Últimas análises</p>
+
+          <div class="article-list" id="article-list">
+
+            <!-- Artigo 1 -->
+            <article class="article-item" data-cat="eua">
+              <div class="article-body">
+                <p class="article-num">01</p>
+                <span class="article-tag">China · EUA</span>
+                <h3 class="article-title">
+                  Guerra comercial 2.0: tarifas bilaterais ameaçam cadeias de suprimento globais
+                </h3>
+                <p class="article-sub">
+                  Novas restrições anunciadas por Washington e Pequim devem elevar preços ao consumidor nos dois países e pressionar parceiros comerciais.
+                </p>
+                <div class="article-meta">
+                  <span>Marco Oliveira</span>
+                  <span>·</span>
+                  <span>3 min</span>
+                </div>
+              </div>
+              <div class="thumb-placeholder" aria-hidden="true">
+                <i class="ti ti-chart-bar"></i>
+              </div>
+            </article>
+
+            <!-- Artigo 2 -->
+            <article class="article-item" data-cat="commodities">
+              <div class="article-body">
+                <p class="article-num">02</p>
+                <span class="article-tag">Commodities</span>
+                <h3 class="article-title">
+                  OPEP+ reduz produção novamente: petróleo pode superar US$ 100 o barril?
+                </h3>
+                <p class="article-sub">
+                  Corte coordenado de produção reacende debate sobre inflação global e transição energética enquanto demanda asiática permanece robusta.
+                </p>
+                <div class="article-meta">
+                  <span>Carla Matos</span>
+                  <span>·</span>
+                  <span>5 min</span>
+                </div>
+              </div>
+              <div class="thumb-placeholder" aria-hidden="true">
+                <i class="ti ti-droplet"></i>
+              </div>
+            </article>
+
+            <!-- Artigo 3 -->
+            <article class="article-item" data-cat="brasil">
+              <div class="article-body">
+                <p class="article-num">03</p>
+                <span class="article-tag">Brasil · Câmbio</span>
+                <h3 class="article-title">
+                  Real em queda: dólar a R$ 5,90 e o dilema do Banco Central
+                </h3>
+                <p class="article-sub">
+                  A desvalorização do real frente ao dólar atinge o maior patamar desde 2021, pressionando o Copom a revisar sua política de afrouxamento monetário.
+                </p>
+                <div class="article-meta">
+                  <span>Paulo Rezende</span>
+                  <span>·</span>
+                  <span>4 min</span>
+                </div>
+              </div>
+              <div class="thumb-placeholder" aria-hidden="true">
+                <i class="ti ti-currency-dollar"></i>
+              </div>
+            </article>
+
+            <!-- Artigo 4 -->
+            <article class="article-item" data-cat="europa">
+              <div class="article-body">
+                <p class="article-num">04</p>
+                <span class="article-tag">Alemanha · Recessão</span>
+                <h3 class="article-title">
+                  Alemanha entra em recessão técnica pelo segundo trimestre: Europa em risco?
+                </h3>
+                <p class="article-sub">
+                  A maior economia europeia retrai 0,4% no primeiro trimestre, confirmando pressões estruturais no setor industrial e a crise energética ainda latente.
+                </p>
+                <div class="article-meta">
+                  <span>Sofia Müller</span>
+                  <span>·</span>
+                  <span>6 min</span>
+                </div>
+              </div>
+              <div class="thumb-placeholder" aria-hidden="true">
+                <i class="ti ti-building-bank"></i>
+              </div>
+            </article>
+
+            <!-- Artigo 5 -->
+            <article class="article-item" data-cat="asia">
+              <div class="article-body">
+                <p class="article-num">05</p>
+                <span class="article-tag">Japão · Ásia</span>
+                <h3 class="article-title">
+                  Iene fraco, exportações fortes: o paradoxo da economia japonesa em 2026
+                </h3>
+                <p class="article-sub">
+                  Enquanto a moeda japonesa atinge mínimas históricas, empresas exportadoras registram lucros recordes, gerando debate sobre a política cambial do Banco do Japão.
+                </p>
+                <div class="article-meta">
+                  <span>Kenji Yamamoto</span>
+                  <span>·</span>
+                  <span>5 min</span>
+                </div>
+              </div>
+              <div class="thumb-placeholder" aria-hidden="true">
+                <i class="ti ti-world"></i>
+              </div>
+            </article>
+
+          </div>
+        </section>
+
+      </div><!-- /main-col -->
+
+      <!-- ==========================================
+           SIDEBAR
+      =========================================== -->
+      <aside class="sidebar">
+
+        <!-- Cotações -->
+        <div class="sidebar-ticker">
+          <p class="ticker-title">
+            <i class="ti ti-activity" aria-hidden="true"></i>
+            Mercados agora
+          </p>
+          <div class="ticker-row">
+            <span class="ticker-name">S&P 500</span>
+            <span class="tick-up">▲ +0,82%</span>
+          </div>
+          <div class="ticker-row">
+            <span class="ticker-name">Ibovespa</span>
+            <span class="tick-down">▼ −1,14%</span>
+          </div>
+          <div class="ticker-row">
+            <span class="ticker-name">EUR/USD</span>
+            <span class="tick-up">▲ +0,31%</span>
+          </div>
+          <div class="ticker-row">
+            <span class="ticker-name">BTC/USD</span>
+            <span class="tick-down">▼ −2,05%</span>
+          </div>
+          <div class="ticker-row">
+            <span class="ticker-name">Ouro</span>
+            <span class="tick-up">▲ +0,55%</span>
+          </div>
+          <div class="ticker-row">
+            <span class="ticker-name">Petróleo WTI</span>
+            <span class="tick-down">▼ −0,78%</span>
+          </div>
+        </div>
+
+        <!-- Newsletter -->
+        <div class="cta-banner">
+          <h3>Newsletter Capitalis</h3>
+          <p>Análises financeiras toda manhã, direto no seu e-mail.</p>
+          <input class="cta-input" type="email" id="newsletter-email" placeholder="seu@email.com" aria-label="Seu e-mail">
+          <button class="cta-btn" id="cta-btn">Assinar gratuitamente</button>
+        </div>
+
+        <!-- Mais Lidos -->
+        <div class="mais-lidos">
+          <p class="ticker-title">
+            <i class="ti ti-flame" aria-hidden="true"></i>
+            Mais lidos hoje
+          </p>
+          <div class="mais-lidos-item">
+            <span class="mais-lidos-num">1.</span>
+            Por que a inflação global ainda resiste às políticas dos bancos centrais
+          </div>
+          <div class="mais-lidos-item">
+            <span class="mais-lidos-num">2.</span>
+            Fintechs sob pressão: regulação global aperta o cerco às plataformas digitais
+          </div>
+          <div class="mais-lidos-item">
+            <span class="mais-lidos-num">3.</span>
+            IA e produtividade: a grande aposta que pode redefinir o crescimento global
+          </div>
+        </div>
+
+      </aside>
+
+    </div><!-- /layout -->
+  </main>
+
+  <!-- =============================================
+       FOOTER
+  ============================================== -->
+  <footer class="footer">
+    <div class="footer-logo">Capitalis</div>
+    <nav class="footer-links" aria-label="Links do rodapé">
+      <span>Sobre</span>
+      <span>Contato</span>
+      <span>Política de Privacidade</span>
+    </nav>
+    <p class="footer-copy">© 2026 · Finanças do Mundo · Todos os direitos reservados</p>
+  </footer>
+
+  <!-- =============================================
+       SCRIPTS
+  ============================================== -->
+  <script>
+    // --- Filtro por categoria ---
+    const catTags = document.querySelectorAll('.cat-tag');
+    const articles = document.querySelectorAll('.article-item, .feat-side, .feat-main');
+
+    catTags.forEach(tag => {
+      tag.addEventListener('click', () => {
+        catTags.forEach(t => t.classList.remove('active'));
+        tag.classList.add('active');
+
+        const cat = tag.dataset.cat;
+
+        articles.forEach(article => {
+          const articleCat = article.dataset.cat;
+          if (cat === 'todos' || articleCat === cat) {
+            article.style.display = '';
+          } else {
+            article.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // --- Links de nav ---
+    document.querySelectorAll('.nav-links li').forEach(li => {
+      li.addEventListener('click', () => {
+        document.querySelectorAll('.nav-links li').forEach(l => l.classList.remove('active'));
+        li.classList.add('active');
+      });
+    });
+
+    // --- Newsletter ---
+    document.getElementById('cta-btn').addEventListener('click', () => {
+      const email = document.getElementById('newsletter-email').value.trim();
+      if (email && email.includes('@')) {
+        alert('Obrigado! Você está inscrito na newsletter Capitalis.');
+        document.getElementById('newsletter-email').value = '';
+      } else {
+        alert('Por favor, insira um e-mail válido.');
+      }
+    });
+
+    // --- Atualizar data no topbar ---
+    (function() {
+      const now = new Date();
+      const opts = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+      const dataFormatada = now.toLocaleDateString('pt-BR', opts);
+      const topbarDate = document.querySelector('.topbar span:first-child');
+      if (topbarDate) {
+        topbarDate.textContent = dataFormatada.charAt(0).toUpperCase() + dataFormatada.slice(1);
+      }
+    })();
+  </script>
+
+</body>
+</html>
